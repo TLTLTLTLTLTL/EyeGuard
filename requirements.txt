@@ -1,0 +1,7 @@
+ultralytics
+streamlit
+pillow
+streamlit-analytics
+matplotlib
+seaborn
+pandas
