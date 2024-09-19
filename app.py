@@ -92,18 +92,18 @@ with tab2:
     analyse = st.button('Analyze')
                 
     if analyse:
-		if img is not None:
-		    img = Image.open(img)
-		    st.markdown('Image Visualization')
-		    st.image(img)
-		    st.subheader('Your eye has been affected by:')
-		    model = models()
-		    res = model.predict(img)
-		    label = res[0].probs.top5
-		    conf = res[0].probs.top5conf
-		    conf = conf.tolist()
-		    st.write('Disease: ' + str(res[0].names[label[0]].title()))
-		    st.write('Confidence level: ' + str(conf[0]))
+	if img is not None:
+		img = Image.open(img)
+		st.markdown('Image Visualization')
+		st.image(img)
+		st.subheader('Your eye has been affected by:')
+		model = models()
+		res = model.predict(img)
+		label = res[0].probs.top5
+		conf = res[0].probs.top5conf
+		conf = conf.tolist()
+		st.write('Disease: ' + str(res[0].names[label[0]].title()))
+		st.write('Confidence level: ' + str(conf[0]))
 
 with tab3:
     st.title("About Me")
