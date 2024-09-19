@@ -25,7 +25,7 @@ with tab1:
     st.markdown("""<p class="big-font">A cataract is a clouding of the eye's lens, which is typically clear. Seeing through cloudy lenses is like looking through a frosty or fogged-up window for people with cataracts. Clouded vision caused by cataracts can make it more difficult to read, drive a car at night, or see the expression on a friend's face. Most cataracts develop slowly and don't disturb eyesight early on. But with time, cataracts will eventually affect vision. At first, stronger lighting and eyeglasses can help deal with cataracts. However, if impaired vision affects usual activities, cataract surgery might be needed. Fortunately, cataract surgery is generally a safe, effective procedure.</p>""", unsafe_allow_html=True)
 
     #st.write("A cataract is a clouding of the eye's lens, which is typically clear. Seeing through cloudy lenses is like looking through a frosty or fogged-up window for people with cataracts. Clouded vision caused by cataracts can make it more difficult to read, drive a car at night, or see the expression on a friend's face. Most cataracts develop slowly and don't disturb eyesight early on. But with time, cataracts will eventually affect vision. At first, stronger lighting and eyeglasses can help deal with cataracts. However, if impaired vision affects usual activities, cataract surgery might be needed. Fortunately, cataract surgery is generally a safe, effective procedure.")
-    st.image("C:/Users/jvcoo/Downloads/eyesite-tampabay-cataract-vision.jpg", caption="Difference between normal and cataract lens")
+    st.image("eyesite-tampabay-cataract-vision.jpg", caption="Difference between normal and cataract lens")
 
     st.divider()
 
@@ -49,7 +49,7 @@ with tab1:
         </p>""", unsafe_allow_html=True)
         
     with col2: 
-        st.image("C:/Users/jvcoo/Downloads/cataract-symptoms.jpg", caption="Normal vision versus clouded vision", width=400)
+        st.image("cataract-symptoms.jpg", caption="Normal vision versus clouded vision", width=400)
 
     st.divider()
 
