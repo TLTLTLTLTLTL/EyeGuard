@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+from ultralytics import YOLO
 
 st.set_page_config(layout='wide')
 st.markdown("""
@@ -10,7 +11,11 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
-
+# Load the model
+@st.cache_resource
+def models():
+	mod = YOLO('best.pt')
+	return mod
 # tabs to change pages in app
 tab1, tab2, tab3 = st.tabs(["Home", "Scan", "About Me"])
 
@@ -87,10 +92,18 @@ with tab2:
     analyse = st.button('Analyze')
                 
     if analyse:
-        if img is not None:
-            img = Image.open(img)
-            st.markdown('Image Visualization')
-            st.image(img)
+		if img is not None:
+		    img = Image.open(img)
+		    st.markdown('Image Visualization')
+		    st.image(img)
+		    st.subheader('Your eye has been affected by:')
+		    model = models()
+		    res = model.predict(img)
+		    label = res[0].probs.top5
+		    conf = res[0].probs.top5conf
+		    conf = conf.tolist()
+		    st.write('Disease: ' + str(res[0].names[label[0]].title()))
+		    st.write('Confidence level: ' + str(conf[0]))
 
 with tab3:
     st.title("About Me")
