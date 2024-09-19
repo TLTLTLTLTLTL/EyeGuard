@@ -22,7 +22,7 @@ tab1, tab2, tab3 = st.tabs(["Home", "Scan", "About Me"])
 # tab 1 code
 with tab1:
     # title and centering
-    st.markdown("<h1 style='text-align: center;'>Cataract Detector</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>EyeGuard</h1>", unsafe_allow_html=True)
 
     # cataract description and header with image
     st.header("What is a Cataract?")
