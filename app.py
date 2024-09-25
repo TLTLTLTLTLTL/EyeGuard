@@ -25,7 +25,7 @@ with tab1:
     st.markdown("<h1 style='text-align: center;'>EyeGuard</h1>", unsafe_allow_html=True)
 
     # cataract description and header with image
-    st.header("What is a Cataract?")
+    st.header("What is a Cataract?:eye:")
 
     st.markdown("""<p class="big-font">A cataract is a clouding of the eye's lens, which is typically clear. Seeing through cloudy lenses is like looking through a frosty or fogged-up window for people with cataracts. Clouded vision caused by cataracts can make it more difficult to read, drive a car at night, or see the expression on a friend's face. Most cataracts develop slowly and don't disturb eyesight early on. But with time, cataracts will eventually affect vision. At first, stronger lighting and eyeglasses can help deal with cataracts. However, if impaired vision affects usual activities, cataract surgery might be needed. Fortunately, cataract surgery is generally a safe, effective procedure.</p>""", unsafe_allow_html=True)
 
@@ -59,7 +59,7 @@ with tab1:
     st.divider()
 
     # cataract stats
-    st.header("Cataract Prevalence")
+    st.header("Cataract Prevalence:chart_with_upwards_trend:")
     st.markdown("""<p class="big-font">Cataracts affect more than 20.5 million Americans age 40 or older, and around 3.5 million cataract surgeries are performed each year.</p>""", unsafe_allow_html=True)
     
 
