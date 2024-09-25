@@ -104,6 +104,8 @@ with tab2:
 		    conf = conf.tolist()
 		    st.write('Disease: ' + str(res[0].names[label[0]].title()))
 		    st.write('Confidence level: ' + str(conf[0]))
+		    if conf > .90:
+			    print("You")
 
 with tab3:
 	st.title("About Me :bulb:")
