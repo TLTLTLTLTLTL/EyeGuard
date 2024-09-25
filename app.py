@@ -89,7 +89,7 @@ with tab1:
 
 with tab2:
     st.header("Eye scanner")
-    st.write("Please drag or upload the picture of your eye into scanner")
+    st.write("Please drag or upload the picture of your eye into the scanner.")
     img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
     analyse = st.button('Analyze')
                 
