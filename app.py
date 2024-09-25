@@ -88,6 +88,8 @@ with tab1:
 
 
 with tab2:
+    st.header("Eye scanner")
+    st.write("Please drag or upload the picture of your eye")
     img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
     analyse = st.button('Analyze')
                 
@@ -104,8 +106,6 @@ with tab2:
 		    conf = conf.tolist()
 		    st.write('Disease: ' + str(res[0].names[label[0]].title()))
 		    st.write('Confidence level: ' + str(conf[0]))
-		    if float(conf) > .90:
-			    print("You")
 
 with tab3:
 	st.title("About Me :bulb:")
