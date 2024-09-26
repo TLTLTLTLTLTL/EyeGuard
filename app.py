@@ -121,8 +121,9 @@ with tab3:
 		""", unsafe_allow_html=True)
 		
 		st.markdown('<p class="big-font">My name is Jaiveer Bagga, and I am the creator of this app. I enjoy doing projects with AI and code, which I use to help people in need. As a junior in high school, I am aiming to constantly learn new skills and ideas that will help me make a larger change in the world. I was always fascinated by the development of AI and how it can be utilized in order to help the general public, which is the reason I have created this app.</p>', unsafe_allow_html=True)
-		st.write("My name is Jaiveer Bagga, and I am the creator of this app. I enjoy doing projects with AI and code, which I use to help people in need. As a junior in high school, I am aiming to constantly learn new skills and ideas that will help me make a larger change in the world. I was always fascinated by the development of AI and how it can be utilized in order to help the general public, which is the reason I have created this app.")
+		
 		st.header("Motivation :white_check_mark:")
-		st.write("I wrote this program to make sure people get their cataract treated as soon as possible in order to keep the disease from worsening over time. I believe it is better if someone with cataract gets treated earlier, so they would not have future troubles regarding their eyesight when they put off getting an operation done. A large amount of Americans struggle with this eye disease, yet it is not talked about too much. My goal is to be able to spread awareness and help people in need who suffer from disease to get more insight and be able to detect whether they do have a cataract.")
+		st.markdown('<p class="big-font">I wrote this program to make sure people get their cataract treated as soon as possible in order to keep the disease from worsening over time. I believe it is better if someone with cataract gets treated earlier, so they would not have future troubles regarding their eyesight when they put off getting an operation done. A large amount of Americans struggle with this eye disease, yet it is not talked about too much. My goal is to be able to spread awareness and help people in need who suffer from disease to get more insight and be able to detect whether they do have a cataract.</p>', unsafe_allow_html=True)
+		
 	with col4:
 		st.image("selfpic.jpg", width = 600)
