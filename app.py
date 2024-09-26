@@ -104,10 +104,12 @@ with tab2:
 		    label = res[0].probs.top5
 		    conf = res[0].probs.top5conf
 		    conf = conf.tolist()
-		    st.write('Disease: ' + str(res[0].names[label[0]].title()))
-		    st.write('Confidence level: ' + str(conf[0]))
 		    if str(res[0].names[label[0]].title()) == "Cataract":
+			    st.write('Disease: ' + str(res[0].names[label[0]].title()))
+		    	    st.write('Confidence level: ' + str(conf[0]))
 			    st.write("See a doctor")
+		    else:
+			    st.write("No cataract detected")
 
 with tab3:
 	st.title("About Me :bulb:")
