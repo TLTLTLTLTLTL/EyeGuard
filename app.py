@@ -106,7 +106,7 @@ with tab2:
 		    conf = conf.tolist()
 		    if str(res[0].names[label[0]].title()) == "Cataract":
 			    st.write('Disease: ' + str(res[0].names[label[0]].title()))
-		    	    st.write('Confidence level: ' + str(conf[0]))
+			    st.write('Confidence level: ' + str(conf[0]))
 			    st.write("See a doctor")
 		    else:
 			    st.write("No cataract detected")
