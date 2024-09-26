@@ -104,6 +104,8 @@ with tab2:
 		    label = res[0].probs.top5
 		    conf = res[0].probs.top5conf
 		    conf = conf.tolist()
+		    if str(res[0].names[label[0]].title()) == "Cataract":
+			    st.write("See a doctor")
 		    st.write('Disease: ' + str(res[0].names[label[0]].title()))
 		    st.write('Confidence level: ' + str(conf[0]))
 
