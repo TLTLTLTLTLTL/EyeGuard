@@ -69,7 +69,7 @@ with tab1:
 # Age Groups Affected
     elif selection == "Age Groups Affected":
 	    st.title("📈 Age Groups Affected by Cataracts")
-	    st.markdown("Cataract prevalence increases with age. Below is a table showing the rates by age and gender.")
+	    st.markdown("<p class='big-font'>Cataract prevalence increases with age. Below is a table showing the rates by age and gender.</p>", unsafe_allow_html=True)
 	
 	    # Sample DataFrame (You can replace this with the actual data)
 	    data = {
