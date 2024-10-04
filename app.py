@@ -49,9 +49,15 @@ with tab1:
 	        "Experiencing double vision",
 	        "Increased nearsightedness and frequent need for new eyeglasses"
 	    ]
-	    st.markdown("People with cataracts may experience the following symptoms:")
-	    for symptom in symptoms:
-	        st.markdown(f"- {symptom}")
+
+	    st.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul><li>Vision appears blurred or foggy</li><li>Sensitivity to bright lights or glare</li>
+     	    <li>Difficulty seeing in dim lighting</li>
+	    <li>Colors appear less vibrant</li>
+     	    <li>Cloudy or hazy sight</li>
+	    <li>Lights create halos or glare</li>
+     	    <li>Struggles with vision at night</li>
+	    <li>Experiencing double vision</li>
+            <li>Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
 
 # Statistics
     elif selection == "Statistics":
