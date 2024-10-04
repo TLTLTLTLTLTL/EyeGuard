@@ -93,7 +93,10 @@ with tab1:
 # Early Detection
     elif selection == "Early Detection":
 	    st.title("🔍 Early Detection in Cataract")
-	    st.markdown("""<p class="big-font">
+
+	    column1, column2 = st.columns(2)
+	    
+	    column1.markdown("""<p class="big-font">
 	    Cataracts are diagnosed similarly, regardless of age. However, if you're under 60, an eye care professional may be less likely to suspect cataracts.
 	    <br>
 	    <b>If you experience cataract symptoms, have a family history of early cataracts, or have health factors that increase your risk, it’s essential to inform your doctor during an eye exam.<b>
@@ -106,6 +109,7 @@ with tab1:
 	    <li class="big-font">Test your vision clarity through visual acuity and refraction tests.</li>
             </ul>
 	    </p>""", unsafe_allow_html=True)
+	    column2.image("https://www.reviewofoptometry.com/CMSImagesContent/2021/11/RO/11242021-phone-camera.jpg")
 
 # Consequences of Late Detection
     elif selection == "Consequences of Late Detection":
