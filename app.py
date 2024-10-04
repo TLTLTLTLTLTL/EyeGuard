@@ -28,7 +28,7 @@ with tab1:
     selection = st.sidebar.radio("Go to", sections)
 
     if selection == "Introduction":
-	st.title("Info")
+	    st.title("Info")
     # title and centering
     st.markdown("<h1 style='text-align: center;'>EyeGuard</h1>", unsafe_allow_html=True)
 
