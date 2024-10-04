@@ -114,12 +114,14 @@ with tab1:
 # Consequences of Late Detection
     elif selection == "Consequences of Late Detection":
 	    st.title("⏰ Consequences of Late Detection")
-	    st.markdown("""
+	    st.markdown("""<p class="big-font">
 	    Left untreated, cataracts can lead to vision loss over time. Symptoms like blurry, hazy, or faded vision may make it harder to read or perform daily tasks.
-	
-	    - Cataracts are the **leading cause of age-related vision decline and preventable blindness**.
-	    - The National Institute of Health predicts that the number of people with visual impairment will **double by 2050** due to the aging population.
-	    """)
+     	    <br>
+	    <ul>
+	    <li class="big-font">Cataracts are the <b>leading cause of age-related vision decline and preventable blindness<b>.</li>
+	    <li class="big-font">The National Institute of Health predicts that the number of people with visual impairment will <b>double by 2050<b> due to the aging population.</li>
+     	    </ul>
+	    </p>""", unsafe_allow_html)
 	
 	# Cost of Surgery
     elif selection == "Cost of Surgery":
