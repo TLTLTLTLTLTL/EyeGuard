@@ -122,7 +122,7 @@ with tab1:
 	    <li class="big-font">The National Institute of Health predicts that the number of people with visual impairment will <b>double by 2050<b> due to the aging population.</li>
      	    </ul>
 	    </p>""", unsafe_allow_html=True)
-	    st.image("https://picjumbo.com/wp-content/uploads/old-alarm-clocks-analog-time-retro-free-stock-photo.jpg")
+	    st.image("https://picjumbo.com/wp-content/uploads/old-alarm-clocks-analog-time-retro-free-stock-photo.jpg", width = 500)
 	
 	# Cost of Surgery
     elif selection == "Cost of Surgery":
