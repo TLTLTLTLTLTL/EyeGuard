@@ -38,19 +38,9 @@ with tab1:
 # Symptoms
     elif selection == "Symptoms":
 	    st.title("👁️ Symptoms of Cataract")
-	    symptoms = [
-	        "Vision appears blurred or foggy",
-	        "Sensitivity to bright lights or glare",
-	        "Difficulty seeing in dim lighting",
-	        "Colors appear less vibrant",
-	        "Cloudy or hazy sight",
-	        "Lights create halos or glare",
-	        "Struggles with vision at night",
-	        "Experiencing double vision",
-	        "Increased nearsightedness and frequent need for new eyeglasses"
-	    ]
 
-	    st.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
+	    column1, column2 = st.columns(2)
+	    column1.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
      	    <li class="big-font">Difficulty seeing in dim lighting</li>
 	    <li class="big-font">Colors appear less vibrant</li>
      	    <li class="big-font">Cloudy or hazy sight</li>
@@ -58,6 +48,8 @@ with tab1:
      	    <li class="big-font">Struggles with vision at night</li>
 	    <li class="big-font">Experiencing double vision</li>
             <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
+
+	    column2.image("https://www.drparthshah.com.au/wp-content/uploads/2022/10/ISX3Cc2DzH-1.jpg")
 
 # Statistics
     elif selection == "Statistics":
