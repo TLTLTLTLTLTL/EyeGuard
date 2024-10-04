@@ -55,9 +55,9 @@ with tab1:
     elif selection == "Statistics":
 	    st.title("📊 Statistics on Cataracts")
 	    
-	     st.markdown("""<p class="big-font"><ul>
-             <li>Each year, around <b>24 million Americans aged 40 and older<b> are affected by cataracts, making it one of the most common eye conditions in the U.S.</li>
-	     <li>Over <b>3.7 million cataract surgeries<b> are performed annually.</li></ul></p>""", unsafe_allow_html=True)
+	    st.markdown("""<p class="big-font"><ul>
+            <li>Each year, around <b>24 million Americans aged 40 and older<b> are affected by cataracts, making it one of the most common eye conditions in the U.S.</li>
+	    <li>Over <b>3.7 million cataract surgeries<b> are performed annually.</li></ul></p>""", unsafe_allow_html=True)
 	    
 	    # Create a sample dataframe for surgeries
 	    surgery_data = pd.DataFrame({
