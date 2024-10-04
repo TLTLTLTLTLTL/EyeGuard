@@ -127,13 +127,15 @@ with tab1:
 	# Cost of Surgery
     elif selection == "Cost of Surgery":
 	    st.title("💰 Cost of Cataract Surgery")
-	    st.markdown("""
-	    - The average cost of cataract surgery is **$3,500 per eye**, with prices potentially reaching up to **$7,000 per eye**.
-	    - **Insurance typically covers the procedure**, but there are exceptions.
-	    - **Health insurance** plans generally cover the traditional type of cataract surgery if it's considered "medically necessary".
-	    - **Vision insurance** doesn't cover cataract surgery.
-	    - **Out-of-pocket expenses** may include doctor fees, facility charges, or anesthesia.
-	    """)
+	    st.markdown("""<p class="big-font">
+     	    <ul>
+	    <li class="big-font">The average cost of cataract surgery is <b>$3,500 per eye<b>, with prices potentially reaching up to <b>$7,000 per eye<b>.</li>
+	    <li class="big-font"><b>Insurance typically covers the procedure<b>, but there are exceptions.</li>
+	    <li class="big-font"><b>Health insurance<b> plans generally cover the traditional type of cataract surgery if it's considered "medically necessary".</li>
+	    <li class="big-font"><b>Vision insurance<b> doesn't cover cataract surgery.</li>
+	    <li class="big-font"><b>Out-of-pocket expenses<b> may include doctor fees, facility charges, or anesthesia.</li>
+     	    </ul>
+	    </p>"""unsafe_allow_html=True)
 	    st.image("https://www.medicareadvantage.com/sites/default/files/2019-09/Medicare-cataract-surgery-cost.jpg", use_column_width=True)
 
 # Aftercare Post-Surgery
