@@ -136,7 +136,7 @@ with tab1:
 	    <li class="big-font"><b>Out-of-pocket expenses<b> may include doctor fees, facility charges, or anesthesia.</li>
      	    </ul>
 	    </p>""", unsafe_allow_html=True)
-	    st.image("https://www.medicareadvantage.com/sites/default/files/2019-09/Medicare-cataract-surgery-cost.jpg", use_column_width=True)
+	    st.image("https://www.centreforsight.net/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-17-at-6.07.03-PM.jpeg", use_column_width=True)
 
 # Aftercare Post-Surgery
     elif selection == "Aftercare Post-Surgery":
