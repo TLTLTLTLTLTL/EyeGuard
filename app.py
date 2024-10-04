@@ -50,7 +50,7 @@ with tab1:
 	        "Increased nearsightedness and frequent need for new eyeglasses"
 	    ]
 
-	    st.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul><li>Vision appears blurred or foggy</li><li>Sensitivity to bright lights or glare</li>
+	    st.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li>Vision appears blurred or foggy</li><li>Sensitivity to bright lights or glare</li>
      	    <li>Difficulty seeing in dim lighting</li>
 	    <li>Colors appear less vibrant</li>
      	    <li>Cloudy or hazy sight</li>
