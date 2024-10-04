@@ -144,15 +144,15 @@ with tab1:
 
 	    st.markdown("""<p class="big-font">To ensure proper healing after cataract surgery, follow these guidelines:
      	    <ul>
-	    <li>Follow your surgeon’s instructions for using eye drops.</li>
-     	    <li>Avoid getting water, shampoo, or soap in your eye.</li>
-	    <li>Do not rub or apply pressure to your eye.</li>
-     	    <li>Wear sunglasses outdoors to protect your eye.</li>
-	    <li>Use your eye shield while sleeping or as advised by your surgeon.</li>
-     	    <li>Limit strenuous physical activity.</li>
-	    <li>Protect your eye from irritants and potential trauma.</li>
-     	    <li>Avoid swimming and shower cautiously.</li>
-	    <li>Refrain from driving until your surgeon gives approval.</li>
+	    <li class="big-font">Follow your surgeon’s instructions for using eye drops.</li>
+     	    <li class="big-font">Avoid getting water, shampoo, or soap in your eye.</li>
+	    <li class="big-font">Do not rub or apply pressure to your eye.</li>
+     	    <li class="big-font">Wear sunglasses outdoors to protect your eye.</li>
+	    <li class="big-font">Use your eye shield while sleeping or as advised by your surgeon.</li>
+     	    <li class="big-font">Limit strenuous physical activity.</li>
+	    <li class="big-font">Protect your eye from irritants and potential trauma.</li>
+     	    <li class="big-font">Avoid swimming and shower cautiously.</li>
+	    <li class="big-font">Refrain from driving until your surgeon gives approval.</li>
      	    </ul>
             </p>""", unsafe_allow_html=True)
 
