@@ -50,14 +50,14 @@ with tab1:
 	        "Increased nearsightedness and frequent need for new eyeglasses"
 	    ]
 
-	    st.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li>Vision appears blurred or foggy</li><li>Sensitivity to bright lights or glare</li>
+	    st.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
      	    <li class="big-font">Difficulty seeing in dim lighting</li>
-	    <li>Colors appear less vibrant</li>
-     	    <li>Cloudy or hazy sight</li>
-	    <li>Lights create halos or glare</li>
-     	    <li>Struggles with vision at night</li>
-	    <li>Experiencing double vision</li>
-            <li>Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
+	    <li class="big-font">Colors appear less vibrant</li>
+     	    <li class="big-font">Cloudy or hazy sight</li>
+	    <li class="big-font">Lights create halos or glare</li>
+     	    <li class="big-font">Struggles with vision at night</li>
+	    <li class="big-font">Experiencing double vision</li>
+            <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
 
 # Statistics
     elif selection == "Statistics":
