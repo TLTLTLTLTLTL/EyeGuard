@@ -141,20 +141,21 @@ with tab1:
 # Aftercare Post-Surgery
     elif selection == "Aftercare Post-Surgery":
 	    st.title("📝 Aftercare Post-Surgery for Cataracts")
-	    aftercare_steps = [
-	        "Follow your surgeon’s instructions for using eye drops.",
-	        "Avoid getting water, shampoo, or soap in your eye.",
-	        "Do not rub or apply pressure to your eye.",
-	        "Wear sunglasses outdoors to protect your eye.",
-	        "Use your eye shield while sleeping or as advised by your surgeon.",
-	        "Limit strenuous physical activity.",
-	        "Protect your eye from irritants and potential trauma.",
-	        "Avoid swimming and shower cautiously.",
-	        "Refrain from driving until your surgeon gives approval."
-	    ]
-	    st.markdown("To ensure proper healing after cataract surgery, follow these guidelines:")
-	    for step in aftercare_steps:
-	        st.markdown(f"- {step}")
+
+	    st.markdown("""<p class="big-font">To ensure proper healing after cataract surgery, follow these guidelines:
+     	    <ul>
+	    <li>Follow your surgeon’s instructions for using eye drops.</li>
+     	    <li>Avoid getting water, shampoo, or soap in your eye.</li>
+	    <li>Do not rub or apply pressure to your eye.</li>
+     	    <li>Wear sunglasses outdoors to protect your eye.</li>
+	    <li>Use your eye shield while sleeping or as advised by your surgeon.</li>
+     	    <li>Limit strenuous physical activity.</li>
+	    <li>Protect your eye from irritants and potential trauma.</li>
+     	    <li>Avoid swimming and shower cautiously.</li>
+	    <li>Refrain from driving until your surgeon gives approval.</li>
+     	    </ul>
+            </p>""", unsafe_allow_html=True)
+
 
 	
     # # title and centering
