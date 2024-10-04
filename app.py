@@ -51,7 +51,7 @@ with tab1:
 	    ]
 
 	    st.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li>Vision appears blurred or foggy</li><li>Sensitivity to bright lights or glare</li>
-     	    <li>Difficulty seeing in dim lighting</li>
+     	    <li class="big-font">Difficulty seeing in dim lighting</li>
 	    <li>Colors appear less vibrant</li>
      	    <li>Cloudy or hazy sight</li>
 	    <li>Lights create halos or glare</li>
