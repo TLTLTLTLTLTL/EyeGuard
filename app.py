@@ -142,7 +142,8 @@ with tab1:
     elif selection == "Aftercare Post-Surgery":
 	    st.title("📝 Aftercare Post-Surgery for Cataracts")
 
-	    st.markdown("""<p class="big-font">To ensure proper healing after cataract surgery, follow these guidelines:
+	    column1, column2 = st.columns(2)
+	    column1.markdown("""<p class="big-font">To ensure proper healing after cataract surgery, follow these guidelines:
      	    <ul>
 	    <li class="big-font">Follow your surgeon’s instructions for using eye drops.</li>
      	    <li class="big-font">Avoid getting water, shampoo, or soap in your eye.</li>
@@ -155,6 +156,7 @@ with tab1:
 	    <li class="big-font">Refrain from driving until your surgeon gives approval.</li>
      	    </ul>
             </p>""", unsafe_allow_html=True)
+	    column2.image("https://www.sterilmedical.com/wp-content/uploads/2022/09/STERIL050615047aw1-600x600-1.jpeg")
 
 
 	
