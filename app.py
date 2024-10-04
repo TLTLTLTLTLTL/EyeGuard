@@ -26,6 +26,9 @@ with tab1:
     st.sidebar.title("Navigation")
     sections = ["Introduction", "Symptoms", "Statistics", "Age Groups Affected", "Early Detection", "Consequences of Late Detection", "Cost of Surgery", "Aftercare Post-Surgery"]
     selection = st.sidebar.radio("Go to", sections)
+
+    if selection == "Introduction":
+	st.title("Info")
     # title and centering
     st.markdown("<h1 style='text-align: center;'>EyeGuard</h1>", unsafe_allow_html=True)
 
