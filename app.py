@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 from ultralytics import YOLO
 
-st.set_page_config(page_title="Cataract Information", page_icon="😎", layout="wide")
+st.set_page_config(page_title="Cataract Scanner", layout="wide")
 st.markdown("""
     <style>
     .big-font {
