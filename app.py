@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 from ultralytics import YOLO
 
-st.set_page_config(layout='wide')
+st.set_page_config(page_title="Cataract Information", page_icon="😎", layout="wide")
 st.markdown("""
     <style>
     .big-font {
@@ -26,12 +26,6 @@ with tab1:
     st.sidebar.title("Navigation")
     sections = ["Introduction", "Symptoms", "Statistics", "Age Groups Affected", "Early Detection", "Consequences of Late Detection", "Cost of Surgery", "Aftercare Post-Surgery"]
     selection = st.sidebar.radio("Go to", sections)
-
-    if selection == "Introduction":
-	    st.title("Info")
-	    st.markdown("""<p class="big-font">A cataract is a clouding of the eye's lens, which is typically clear. Seeing through cloudy lenses is like looking through a frosty or fogged-up window for people with cataracts. Clouded vision caused by cataracts can make it more difficult to read, drive a car at night, or see the expression on a friend's face. Most cataracts develop slowly and don't disturb eyesight early on. But with time, cataracts will eventually affect vision. At first, stronger lighting and eyeglasses can help deal with cataracts. However, if impaired vision affects usual activities, cataract surgery might be needed. Fortunately, cataract surgery is generally a safe, effective procedure.</p>""", unsafe_allow_html=True)
-	    #st.write("A cataract is a clouding of the eye's lens, which is typically clear. Seeing through cloudy lenses is like looking through a frosty or fogged-up window for people with cataracts. Clouded vision caused by cataracts can make it more difficult to read, drive a car at night, or see the expression on a friend's face. Most cataracts develop slowly and don't disturb eyesight early on. But with time, cataracts will eventually affect vision. At first, stronger lighting and eyeglasses can help deal with cataracts. However, if impaired vision affects usual activities, cataract surgery might be needed. Fortunately, cataract surgery is generally a safe, effective procedure.")
-	st.image("eyesite-tampabay-cataract-vision.jpg", caption="Difference between normal and cataract lens")
     # title and centering
     st.markdown("<h1 style='text-align: center;'>EyeGuard</h1>", unsafe_allow_html=True)
 
