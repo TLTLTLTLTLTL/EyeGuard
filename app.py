@@ -121,7 +121,7 @@ with tab1:
 	    <li class="big-font">Cataracts are the <b>leading cause of age-related vision decline and preventable blindness<b>.</li>
 	    <li class="big-font">The National Institute of Health predicts that the number of people with visual impairment will <b>double by 2050<b> due to the aging population.</li>
      	    </ul>
-	    </p>""", unsafe_allow_html)
+	    </p>""", unsafe_allow_html=True)
 	
 	# Cost of Surgery
     elif selection == "Cost of Surgery":
