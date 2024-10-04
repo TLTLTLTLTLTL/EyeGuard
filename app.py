@@ -18,13 +18,14 @@ def models():
 	return mod
 # tabs to change pages in app
 tab1, tab2, tab3 = st.tabs(["Home", "Scan", "About Me"])
-# Sidebar with navigation
-st.sidebar.title("Navigation")
-sections = ["Introduction", "Symptoms", "Statistics", "Age Groups Affected", "Early Detection", "Consequences of Late Detection", "Cost of Surgery", "Aftercare Post-Surgery"]
-selection = st.sidebar.radio("Go to", sections)
+
 
 # tab 1 code
 with tab1:
+    # Sidebar with navigation
+    st.sidebar.title("Navigation")
+    sections = ["Introduction", "Symptoms", "Statistics", "Age Groups Affected", "Early Detection", "Consequences of Late Detection", "Cost of Surgery", "Aftercare Post-Surgery"]
+    selection = st.sidebar.radio("Go to", sections)
     # title and centering
     st.markdown("<h1 style='text-align: center;'>EyeGuard</h1>", unsafe_allow_html=True)
 
