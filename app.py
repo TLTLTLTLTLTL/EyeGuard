@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 from ultralytics import YOLO
+import matplotlib.pyplot as plt	
+import seaborn as sns
 
 st.set_page_config(page_title="Cataract Scanner", layout="wide")
 st.markdown("""
