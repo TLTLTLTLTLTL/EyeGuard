@@ -247,7 +247,7 @@ with tab2:
 		    if str(res[0].names[label[0]].title()) == "Cataract":
 			    st.write('Disease: ' + str(res[0].names[label[0]].title()))
 			    st.write('Confidence level: ' + str(conf[0]))
-			    st.write("See a doctor")
+			    st.write("Your next steps should be to consult a doctor and possibly plan surgery as soon as possible. After surgery, you must take care of your eye(s) during the healing process to recover better.")
 		    else:
 			    st.write("No cataract detected")
 
