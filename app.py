@@ -30,7 +30,7 @@ with tab1:
     selection = st.sidebar.radio("Go to", sections)
 
     if selection == "Introduction":
-	    st.header("🌟 Cataract Information Portal")
+	    st.subheader("🌟 Cataract Information Portal")
 	    column1, column2 = st.columns(2)
 	    column2.image("https://drishtieye.org/wp-content/uploads/2024/06/Cataract-Hero-Image-2.jpg", use_column_width=True)
 
@@ -38,7 +38,7 @@ with tab1:
 
 # Symptoms
     elif selection == "Symptoms":
-	    st.header("👁️ Symptoms of Cataract")
+	    st.subheader("👁️ Symptoms of Cataract")
 
 	    column1, column2 = st.columns(2)
 	    column1.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
@@ -54,7 +54,7 @@ with tab1:
 
 # Statistics
     elif selection == "Statistics":
-	    st.header("📊 Statistics on Cataracts")
+	    st.subheader("📊 Statistics on Cataracts")
 	    
 	    st.markdown("""<p class="big-font"><ul>
             <li class="big-font">Each year, around <b>24 million Americans aged 40 and older<b> are affected by cataracts, making it one of the most common eye conditions in the U.S.</li>
@@ -69,7 +69,7 @@ with tab1:
 
 # Age Groups Affected
     elif selection == "Age Groups Affected":
-	    st.header("📈 Age Groups Affected by Cataracts")
+	    st.subheader("📈 Age Groups Affected by Cataracts")
 	    st.markdown("<p class='big-font'>Cataract prevalence increases with age. Below is a table showing the rates by age and gender.</p>", unsafe_allow_html=True)
 	
 	    # Sample DataFrame (You can replace this with the actual data)
@@ -93,7 +93,7 @@ with tab1:
 
 # Early Detection
     elif selection == "Early Detection":
-	    st.header("🔍 Early Detection in Cataract")
+	    st.subheader("🔍 Early Detection in Cataract")
 
 	    column1, column2 = st.columns(2)
 	    
@@ -114,7 +114,7 @@ with tab1:
 
 # Consequences of Late Detection
     elif selection == "Consequences of Late Detection":
-	    st.header("⏰ Consequences of Late Detection")
+	    st.subheader("⏰ Consequences of Late Detection")
 	    st.markdown("""<p class="big-font">
 	    Left untreated, cataracts can lead to vision loss over time. Symptoms like blurry, hazy, or faded vision may make it harder to read or perform daily tasks.
      	    <br>
@@ -127,7 +127,7 @@ with tab1:
 	
 	# Cost of Surgery
     elif selection == "Cost of Surgery":
-	    st.title("💰 Cost of Cataract Surgery")
+	    st.subheader("💰 Cost of Cataract Surgery")
 	    st.markdown("""<p class="big-font">
      	    <ul>
 	    <li class="big-font">The average cost of cataract surgery is <b>$3,500 per eye<b>, with prices potentially reaching up to <b>$7,000 per eye<b>.</li>
@@ -141,7 +141,7 @@ with tab1:
 
 # Aftercare Post-Surgery
     elif selection == "Aftercare Post-Surgery":
-	    st.header("📝 Aftercare Post-Surgery for Cataracts")
+	    st.subheader("📝 Aftercare Post-Surgery for Cataracts")
 
 	    column1, column2 = st.columns(2)
 	    column1.markdown("""<p class="big-font">To ensure proper healing after cataract surgery, follow these guidelines:
