@@ -257,13 +257,6 @@ with tab3:
 	col3, col4 = st.columns([8, 4])
 	with col3:
 		st.header("Introduction :star:")
-		st.markdown("""
-		<style>
-		.big-font {
-		    font-size:25px !important;
-		}
-		</style>
-		""", unsafe_allow_html=True)
 		
 		st.markdown("""<p class="big-font">My name is Jaiveer Bagga, and I am the creator of this app. As a high school junior with a passion for AI and coding, I am constantly seeking opportunities to apply my skills to make a positive impact. I have always been fascinated by the development and potential of AI and how it can be utilized to help the general public. My curiosity, along with the desire to help those in need, led me to develop this app.</p>""", unsafe_allow_html=True)
 		
