@@ -9,7 +9,7 @@ st.set_page_config(page_title="Cataract Scanner", layout="wide")
 st.markdown("""
     <style>
     .big-font {
-        font-size:20px !important;
+        font-size:18px !important;
     }
     </style>
     """, unsafe_allow_html=True)
