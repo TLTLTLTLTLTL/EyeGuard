@@ -21,8 +21,8 @@ def models():
 
 # Logo and title section
 with st.container():
-	col = st.columns([3,9])
-	col[0].image('logo.png')
+	col = st.columns([5,2,5])
+	col[1].image('logo.png')
 	# col[1].text('')
 	# col[1].text('')
 	# col[1].text('')
