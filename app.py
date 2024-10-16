@@ -173,10 +173,10 @@ with tab1:
     
 with tab2:
     st.subheader("Eye scanner")
-    st.write("Our application detects cataracts by analyzing fundus images using convolutional neural networks (CNNs). It specifically employs the YOLO (You Only Look Once) algorithm, which leverages CNNs to quickly process images and identify features indicative of cataracts. The CNN within YOLO scans the entire image in a single pass to detect and localize cataract regions efficiently. This approach enables rapid and accurate detection, assisting healthcare professionals in diagnosis and treatment planning.")
+    st.write("This application detects cataracts by analyzing fundus images using convolutional neural networks (CNNs). It specifically employs the YOLO (You Only Look Once) algorithm, which leverages CNNs to quickly process images and identify features indicative of cataracts. The CNN within YOLO scans the entire image in a single pass to detect and localize cataract regions efficiently. This approach enables rapid and accurate detection, assisting healthcare professionals in diagnosis and treatment planning.")
     st.subheader('Steps to use the app')
     st.markdown('''
-    - Take a clear image
+    - Take a clear fundus image of the eye
     - Upload the image
     - Analyze the image''')
     img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
