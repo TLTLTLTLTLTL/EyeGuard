@@ -62,7 +62,7 @@ with tab1:
 	    <li class="big-font">Experiencing double vision</li>
             <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
 
-	    column2.image("https://www.drparthshah.com.au/wp-content/uploads/2022/10/ISX3Cc2DzH-1.jpg")
+	    column2.image("https://www.drparthshah.com.au/wp-content/uploads/2022/10/ISX3Cc2DzH-1.jpg", use_column_width=True)
 
 # Statistics
     elif selection == "Statistics":
@@ -122,7 +122,7 @@ with tab1:
 	    <li class="big-font">Test your vision clarity through visual acuity and refraction tests.</li>
             </ul>
 	    </p>""", unsafe_allow_html=True)
-	    column2.image("https://www.reviewofoptometry.com/CMSImagesContent/2021/11/RO/11242021-phone-camera.jpg")
+	    column2.image("https://www.reviewofoptometry.com/CMSImagesContent/2021/11/RO/11242021-phone-camera.jpg", use_column_width=True)
 
 # Consequences of Late Detection
     elif selection == "Consequences of Late Detection":
@@ -135,7 +135,7 @@ with tab1:
 	    <li class="big-font">The National Institute of Health predicts that the number of people with visual impairment will <b>double by 2050<b> due to the aging population.</li>
      	    </ul>
 	    </p>""", unsafe_allow_html=True)
-	    st.image("https://picjumbo.com/wp-content/uploads/old-alarm-clocks-analog-time-retro-free-stock-photo.jpg", width = 800)
+	    st.image("https://picjumbo.com/wp-content/uploads/old-alarm-clocks-analog-time-retro-free-stock-photo.jpg", width = 800, use_column_width=True)
 	
 	# Cost of Surgery
     elif selection == "Cost of Surgery":
@@ -149,7 +149,7 @@ with tab1:
 	    <li class="big-font"><b>Out-of-pocket expenses<b> may include doctor fees, facility charges, or anesthesia.</li>
      	    </ul>
 	    </p>""", unsafe_allow_html=True)
-	    st.image("https://www.centreforsight.net/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-17-at-6.07.03-PM.jpeg", width=800)
+	    st.image("https://www.centreforsight.net/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-17-at-6.07.03-PM.jpeg", width=800, use_column_width=True)
 
 # Aftercare Post-Surgery
     elif selection == "Aftercare Post-Surgery":
@@ -169,7 +169,7 @@ with tab1:
 	    <li class="big-font">Refrain from driving until your surgeon gives approval.</li>
      	    </ul>
             </p>""", unsafe_allow_html=True)
-	    column2.image("https://www.sterilmedical.com/wp-content/uploads/2022/09/STERIL050615047aw1-600x600-1.jpeg")
+	    column2.image("https://www.sterilmedical.com/wp-content/uploads/2022/09/STERIL050615047aw1-600x600-1.jpeg", use_column_width=True)
     
 with tab2:
     st.subheader("Eye scanner")
