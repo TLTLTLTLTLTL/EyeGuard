@@ -209,4 +209,4 @@ with tab3:
 		st.markdown("""<p class="big-font">My motivation to create this program stems from my commitment to ensure that people who have the disease are detected and treated early to prevent the condition from progressing. Many people are affected by cataracts, yet their issue often gets overlooked until the disease has worsened. Timely treatment can greatly help a patient's life by preventing future complications. With this app, my goal is to be able to spread awareness and help people in need who suffer from the disease to get more insight and be able to detect whether they do or do not have a cataract.</p>""", unsafe_allow_html=True)
 		
 	with col4:
-		st.image("selfpic.jpg", width = 600)
+		st.image("selfpic.jpg", width = 600, use_column_width=True)
