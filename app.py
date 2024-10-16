@@ -18,6 +18,17 @@ st.markdown("""
 def models():
 	mod = YOLO('best.pt')
 	return mod
+
+# Logo and title section
+with st.container():
+	col = st.columns([3,9])
+	col[0].image('logo.png')
+	# col[1].text('')
+	# col[1].text('')
+	# col[1].text('')
+	# col[1].text('')
+	col[1].markdown("<h1 style='text-align: center; color: white;'>EyeGuard</h1>", unsafe_allow_html=True)
+
 # tabs to change pages in app
 tab1, tab2, tab3 = st.tabs(["Home", "Scan", "About Me"])
 
