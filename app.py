@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import matplotlib.pyplot as plt	
 import seaborn as sns
 
-st.set_page_config(page_title="Cataract Scanner", layout="wide")
+st.set_page_config(page_title="EyeGuard",page_icon="logo_bg.png", layout="wide")
 st.markdown("""
     <style>
     .big-font {
@@ -28,6 +28,7 @@ with tab1:
     st.sidebar.title("Navigation")
     sections = ["Introduction", "Symptoms", "Statistics", "Age Groups Affected", "Early Detection", "Consequences of Late Detection", "Cost of Surgery", "Aftercare Post-Surgery"]
     selection = st.sidebar.radio("Go to", sections)
+    st.image("logo.png")
 
     if selection == "Introduction":
 	    st.subheader("🌟 Cataract Information Portal")
