@@ -28,7 +28,7 @@ with tab1:
     st.sidebar.title("Navigation")
     sections = ["Introduction", "Symptoms", "Statistics", "Age Groups Affected", "Early Detection", "Consequences of Late Detection", "Cost of Surgery", "Aftercare Post-Surgery"]
     selection = st.sidebar.radio("Go to", sections)
-    st.sidebar.st.image("logo.png")
+    st.sidebar.image("logo.png")
 
     if selection == "Introduction":
 	    st.subheader("🌟 Cataract Information Portal")
