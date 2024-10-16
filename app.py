@@ -177,7 +177,7 @@ with tab2:
 		    conf = res[0].probs.top5conf
 		    conf = conf.tolist()
 		    if str(res[0].names[label[0]].title()) == "Cataract":
-			    st.markdown(f'<h3><span style="color:black">Disease:</span> {str(res[0].names[label[0]].title())}</h3>', unsafe_allow_html=True)
+			    st.markdown(f'<h3>Disease: <span style="color:red">{str(res[0].names[label[0]].title())}</span></h3>', unsafe_allow_html=True)
 			    # st.write()
 			    st.write('Confidence level: ' + str(conf[0]))
 			    st.write("""Your next steps should be to consult a doctor and, depending on your vision, either wear prescription glasses or plan surgery, which is common and highly effective.
