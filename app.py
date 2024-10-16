@@ -158,75 +158,7 @@ with tab1:
      	    </ul>
             </p>""", unsafe_allow_html=True)
 	    column2.image("https://www.sterilmedical.com/wp-content/uploads/2022/09/STERIL050615047aw1-600x600-1.jpeg")
-
-
-	
-    # # title and centering
-    # st.markdown("<h1 style='text-align: center;'>EyeGuard</h1>", unsafe_allow_html=True)
-
-    # # cataract description and header with image
-    # st.header("What is a Cataract?:eye:")
-
-    # st.markdown("""<p class="big-font">A cataract is a clouding of the eye's lens, which is typically clear. Seeing through cloudy lenses is like looking through a frosty or fogged-up window for people with cataracts. Clouded vision caused by cataracts can make it more difficult to read, drive a car at night, or see the expression on a friend's face. Most cataracts develop slowly and don't disturb eyesight early on. But with time, cataracts will eventually affect vision. At first, stronger lighting and eyeglasses can help deal with cataracts. However, if impaired vision affects usual activities, cataract surgery might be needed. Fortunately, cataract surgery is generally a safe, effective procedure.</p>""", unsafe_allow_html=True)
-
-    # #st.write("A cataract is a clouding of the eye's lens, which is typically clear. Seeing through cloudy lenses is like looking through a frosty or fogged-up window for people with cataracts. Clouded vision caused by cataracts can make it more difficult to read, drive a car at night, or see the expression on a friend's face. Most cataracts develop slowly and don't disturb eyesight early on. But with time, cataracts will eventually affect vision. At first, stronger lighting and eyeglasses can help deal with cataracts. However, if impaired vision affects usual activities, cataract surgery might be needed. Fortunately, cataract surgery is generally a safe, effective procedure.")
-    # st.image("eyesite-tampabay-cataract-vision.jpg", caption="Difference between normal and cataract lens")
-
-    # st.divider()
-
-    # # cataract symptoms and header with image
-    # col1, col2 = st.columns(2)
-
-    # with col1:
-    #     st.header("Symptoms of Cataract")
-
-    #     st.markdown("""<p class="big-font">
-    #     <ul>
-    #         <li class="big-font">Clouded, blurred, or dimmed vision</li>
-    #         <li class="big-font">Trouble seeing at night</li>
-    #         <li class="big-font">Sensitivity to light and glare</li>
-    #         <li class="big-font">Need for brighter light for reading and other activities</li>
-    #         <li class="big-font">Seeing "halos" around lights</li>
-    #         <li class="big-font">Frequent changes in eyeglass or contact lens prescription</li>
-    #         <li class="big-font">Fading or yellowing of color</li>
-    #         <li class="big-font">Double vision in one eye</li>
-    #     </ul>
-    #     </p>""", unsafe_allow_html=True)
-        
-    # with col2: 
-    #     st.image("cataract-symptoms.jpg", caption="Normal vision versus clouded vision", width=400)
-
-    # st.divider()
-
-    # # cataract stats
-    # st.header("Cataract Prevalence:chart_with_upwards_trend:")
-    # st.markdown("""<p class="big-font">Cataracts affect more than 20.5 million Americans age 40 or older, and around 3.5 million cataract surgeries are performed each year.</p>""", unsafe_allow_html=True)
     
-
-    # # dictionary to create stat table for prevalance
-    # cat_dict = {
-    #     "Age": ["40-49", "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80+"],
-    #     "Male Prevalance": ["2.77%", "4.9%", "8.12%", "13.45%", "21.53%", "32.27%", "44.81%", "63.14%"],
-    #     "Female Prevalance": ["2.25%", "5.52%", "10.09%", "17.30%", "27.58%", "40.06%", "53.09%", "71.24%"]
-    #             }
-    
-    # # st.table(cat_dict)
-    # # url = "https://www.neovisioneyecenters.com/what-age-do-cataracts-develop/#:~:text=According%20to%20the%20NIH%2C%20in,cataracts%20at%20a%20higher%20rate."
-    # # st.write("Source: [What Age Do Cataracts Start Developing?](%s)" % url)
-
-    # col1, col2 = st.columns(2)
-
-    # with col1:
-    #     df_cat = pd.DataFrame(cat_dict)
-    #     st.dataframe(df_cat, width=700)
-    #     url = "https://www.neovisioneyecenters.com/what-age-do-cataracts-develop/#:~:text=According%20to%20the%20NIH%2C%20in,cataracts%20at%20a%20higher%20rate."
-    #     st.write("Source: [What Age Do Cataracts Start Developing?](%s)" % url)
-
-    # with col2:
-    #     st.image("https://www.neovisioneyecenters.com/wp-content/uploads/2023/05/smiling-seniors-jpg.webp", width=500)
-    
-
-
 with tab2:
     st.subheader("Eye scanner")
     st.write("Please drag or upload the picture of your eye into the scanner.")
@@ -245,7 +177,8 @@ with tab2:
 		    conf = res[0].probs.top5conf
 		    conf = conf.tolist()
 		    if str(res[0].names[label[0]].title()) == "Cataract":
-			    st.write('Disease: ' + str(res[0].names[label[0]].title()))
+			    st.markdown('<h3>Disease: </h3>', unsafe_allow_html=True)
+			    st.write(str(res[0].names[label[0]].title()))
 			    st.write('Confidence level: ' + str(conf[0]))
 			    st.write("""Your next steps should be to consult a doctor and, depending on your vision, either wear prescription glasses or plan surgery, which is common and highly effective.
        			    Make sure to maintain regular eye exams to monitor the disease and to ensure no other issues arise.""")
