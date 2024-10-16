@@ -179,7 +179,7 @@ with tab2:
 		    if str(res[0].names[label[0]].title()) == "Cataract":
 			    st.markdown(f'<h3>Disease: <span style="color:red">{str(res[0].names[label[0]].title())}</span></h3>', unsafe_allow_html=True)
 			    # st.write()
-			    st.markdown(f'<h4>Confidence level: {str((conf[0] * 100).2f)}%</h4>', unsafe_allow_html=True)
+			    st.markdown(f'<h4>Confidence level: {"{:.2f}".format(conf[0] * 100}%</h4>', unsafe_allow_html=True)
 			    st.write("""Your next steps should be to consult a doctor and, depending on your vision, either wear prescription glasses or plan surgery, which is common and highly effective.
        			    Make sure to maintain regular eye exams to monitor the disease and to ensure no other issues arise.""")
 		    else:
