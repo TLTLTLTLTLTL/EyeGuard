@@ -21,13 +21,13 @@ def models():
 
 # Logo and title section
 with st.container():
-	col = st.columns([5,2,5])
+	col = st.columns([4,1,3,4])
 	col[1].image('logo.png')
 	# col[1].text('')
 	# col[1].text('')
 	# col[1].text('')
 	# col[1].text('')
-	col[1].markdown("<h1 style='text-align: center; color: white;'>EyeGuard</h1>", unsafe_allow_html=True)
+	col[2].markdown("<h1 style='text-align: center; color: white;'>EyeGuard</h1>", unsafe_allow_html=True)
 
 # tabs to change pages in app
 tab1, tab2, tab3 = st.tabs(["Home", "Scan", "About Me"])
