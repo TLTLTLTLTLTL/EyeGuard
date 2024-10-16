@@ -22,7 +22,7 @@ def models():
 # Logo and title section
 with st.container():
 	col = st.columns([4,1,4,3])
-	col[1].image('logo.png',width=50)
+	col[1].image('logo.png')
 	# col[1].text('')
 	# col[1].text('')
 	# col[1].text('')
