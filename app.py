@@ -202,7 +202,15 @@ with tab1:
 
 	    
 	    st.subheader("💰 Cost of Diabetic Retinopathy Surgery")
-	    
+	    st.markdown("""<p class="big-font">
+     	    <ul>
+	    <li class="big-font">Treatment costs for diabetic retinopathy can vary widely but typically range from $1,500 to over $5,000 per year, depending on stage and treatment type.</li>
+	    <li class="big-font">Anti-VEGF injections (e.g., Avastin, Eylea, Lucentis) can cost $50 to $2,000 per injection, with multiple injections often needed each year.</li>
+	    <li class="big-font">Laser photocoagulation procedures usually cost $1,000 to $2,500 per session.</li>
+	    <li class="big-font">Health insurance generally covers diabetic retinopathy treatments when deemed medically necessary.</li>
+     	    <li class="big-font">Patients may incur out-of-pocket costs for imaging tests, injections, or specialist visits, especially if not fully covered.</li>
+     	    </ul>
+	    </p>""", unsafe_allow_html=True)
 	    
 	    st.image("https://www.centreforsight.net/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-17-at-6.07.03-PM.jpeg", width=800, use_container_width=True)
 
