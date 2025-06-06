@@ -188,6 +188,23 @@ with tab1:
 	    <li class="big-font"><b>Out-of-pocket expenses<b> may include doctor fees, facility charges, or anesthesia.</li>
      	    </ul>
 	    </p>""", unsafe_allow_html=True)
+
+	    
+	    st.subheader("💰 Cost of Glaucoma Surgery")
+	    st.markdown("""<p class="big-font">
+     	    <ul>
+	    <li class="big-font">The average annual cost of glaucoma treatment ranges from <b>$1,000 to $2,500<b> per patient, depending on the severity and treatment method.</li>
+	    <li class="big-font">Prescription eye drops are often the first line of treatment and can cost <b>$150–$300<b> per month without insurance.</li>
+	    <li class="big-font">Laser therapy and surgical procedures like trabeculectomy or shunt implantation may cost <b>$1,000 to $5,000<b> or more.</li>
+	    <li class="big-font">Health insurance typically covers medically necessary glaucoma treatments, including surgery.</li>
+	    
+     	    </ul>
+	    </p>""", unsafe_allow_html=True)
+
+	    
+	    st.subheader("💰 Cost of Diabetic Retinopathy Surgery")
+	    
+	    
 	    st.image("https://www.centreforsight.net/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-17-at-6.07.03-PM.jpeg", width=800, use_container_width=True)
 
 # Aftercare Post-Surgery
