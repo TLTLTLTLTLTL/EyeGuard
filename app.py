@@ -67,6 +67,8 @@ with tab1:
 	    <li class="big-font">Experiencing double vision</li>
             <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
 
+	    st.subheader("Yes")
+
 	    column2.image("https://www.drparthshah.com.au/wp-content/uploads/2022/10/ISX3Cc2DzH-1.jpg", use_container_width=True)
 
 # Statistics
