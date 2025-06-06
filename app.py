@@ -194,7 +194,7 @@ with tab1:
 	    st.markdown("""<p class="big-font">
      	    <ul>
 	    <li class="big-font">The average annual cost of glaucoma treatment ranges from <b>$1,000 to $2,500<b> per patient, depending on the severity and treatment method.</li>
-	    <li class="big-font">Prescription eye drops are often the firt line of treatment and can cost <b>$150–$300<b> per month without insurance.</li>
+	    <li class="big-font">Prescription eye drops are often the first line of treatment and can cost <b>$150–$300<b> per month without insurance.</li>
 	    <li class="big-font">Laser therapy and surgical procedures like trabeculectomy or shunt implantation may cost <b>$1,000 to $5,000<b> or more.</li>
 	    <li class="big-font">Health insurance typically covers medically necessary glaucoma treatments, including surgery.</li>
      	    </ul>
