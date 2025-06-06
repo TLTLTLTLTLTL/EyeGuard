@@ -67,8 +67,8 @@ with tab1:
 	    <li class="big-font">Experiencing double vision</li>
             <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
 
-	    st.subheader("Symptoms of Glaucoma")
-	    column1.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
+	    
+	    column1.markdown(st.subheader("Symptoms of Glaucoma"), """<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
      	    <li class="big-font">Difficulty seeing in dim lighting</li>
 	    <li class="big-font">Colors appear less vibrant</li>
      	    <li class="big-font">Cloudy or hazy sight</li>
