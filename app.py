@@ -58,7 +58,7 @@ with tab1:
 	    st.subheader("👁️ Symptoms of Cataract")
 
 	    column1, column2 = st.columns(2)
-	    with col1:
+	    with column1:
 		    column1.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
 	     	    <li class="big-font">Difficulty seeing in dim lighting</li>
 		    <li class="big-font">Colors appear less vibrant</li>
