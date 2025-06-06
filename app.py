@@ -131,6 +131,8 @@ with tab1:
 	    ax.legend()
 	    st.pyplot(fig)
 
+	    st.subheader("Age Groups Affected by Glaucoma")
+
 	    g_data = {
     		'Age': ['40-44', '45-49', '50-54', '55-59', '60-64', '65-69', '70-74', '75-79', '80-84', '85-89'],
     		'Estimated_Prevalence_%': [0.2, 0.3, 0.5, 0.9, 1.4, 2.0, 2.8, 3.5, 4.0, 4.3]
