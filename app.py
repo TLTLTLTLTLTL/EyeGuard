@@ -197,7 +197,6 @@ with tab1:
 	    <li class="big-font">Prescription eye drops are often the first line of treatment and can cost <b>$150–$300<b> per month without insurance.</li>
 	    <li class="big-font">Laser therapy and surgical procedures like trabeculectomy or shunt implantation may cost <b>$1,000 to $5,000<b> or more.</li>
 	    <li class="big-font">Health insurance typically covers medically necessary glaucoma treatments, including surgery.</li>
-	    
      	    </ul>
 	    </p>""", unsafe_allow_html=True)
 
