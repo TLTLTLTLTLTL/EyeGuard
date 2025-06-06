@@ -42,7 +42,7 @@ with tab1:
     st.sidebar.image("logo.png")
 
     if selection == "Introduction":
-	    st.subheader("🌟 Cataract Information Portal")
+	    st.subheader("🌟 Eye Disease Information Portal")
 	    column1, column2 = st.columns(2)
 	    column2.image("https://drishtieye.org/wp-content/uploads/2024/06/Cataract-Hero-Image-2.jpg", use_column_width=True)
 
