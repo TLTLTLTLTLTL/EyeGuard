@@ -67,24 +67,26 @@ with tab1:
 	     	    <li class="big-font">Struggles with vision at night</li>
 		    <li class="big-font">Experiencing double vision</li>
 	            <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
+		    
 		    st.subheader("Symptoms of Glaucoma")
 		    column1.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
-	     	    <li class="big-font">Difficulty seeing in dim lighting</li>
-		    <li class="big-font">Colors appear less vibrant</li>
-	     	    <li class="big-font">Cloudy or hazy sight</li>
-		    <li class="big-font">Lights create halos or glare</li>
-	     	    <li class="big-font">Struggles with vision at night</li>
-		    <li class="big-font">Experiencing double vision</li>
-      		    <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
+	     	    <li class="big-font">Gradual loss of peripheral vision</li>
+		    <li class="big-font">Tunnel vision in advanced stages</li>
+	     	    <li class="big-font">Blurred vision, especially during pressure spikes</li>
+		    <li class="big-font">Severe eye pain</li>
+	     	    <li class="big-font">Eye redness</li>
+		    <li class="big-font">Nausea and vomiting</li>
+      		    <li class="big-font">Halos around lights</li></ul></p>""", unsafe_allow_html=True)
+		    
 		    st.subheader("Symptoms of Diabetic Retinopathy")
 		    column1.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
-	     	    <li class="big-font">Difficulty seeing in dim lighting</li>
-		    <li class="big-font">Colors appear less vibrant</li>
-	     	    <li class="big-font">Cloudy or hazy sight</li>
-		    <li class="big-font">Lights create halos or glare</li>
-	     	    <li class="big-font">Struggles with vision at night</li>
-		    <li class="big-font">Experiencing double vision</li>
-      		    <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
+	     	    <li class="big-font">Blurred or fluctuating vision</li>
+		    <li class="big-font">Impaired color perception</li>
+	     	    <li class="big-font">Dark spots or strings in the field of vision</li>
+		    <li class="big-font">Sudden vision loss</li>
+	     	    <li class="big-font">Seeing flashes of light</li>
+		    <li class="big-font">Difficulty seeing at night</li>
+      		    <li class="big-font">Trouble reading or recognizing faces</li></ul></p>""", unsafe_allow_html=True)
 		    
 
 	    with column2:
