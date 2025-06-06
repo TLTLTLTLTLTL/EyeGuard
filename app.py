@@ -23,10 +23,6 @@ def models():
 with st.container():
 	col = st.columns([4,1,4,3],vertical_alignment="center")
 	col[1].image('logo.png')
-	# col[1].text('')
-	# col[1].text('')
-	# col[1].text('')
-	# col[1].text('')
 	col[2].markdown("<h1 style='text-align: center; color: white;'>EyeGuard</h1>", unsafe_allow_html=True)
 
 # tabs to change pages in app
@@ -44,7 +40,7 @@ with tab1:
     if selection == "Introduction":
 	    st.subheader("🌟 Eye Disease Information Portal")
 	    column1, column2 = st.columns(2)
-	    column2.image("https://drishtieye.org/wp-content/uploads/2024/06/Cataract-Hero-Image-2.jpg", use_column_width=True)
+	    column2.image("https://drishtieye.org/wp-content/uploads/2024/06/Cataract-Hero-Image-2.jpg", use_container_width=True)
 
 	    column1.markdown("""<p class="big-font">A cataract is a clouded or opaque area in the eye's lens, which is typically clear and essential for focusing light on the retina. The retina, a light-sensitive layer at the back of the eye, sends visual information to the brain.<br><br>When a cataract develops, proteins in the lens begin to break down and clump together, obstructing light from passing through the lens and reaching the retina effectively. This results in blurry or dull vision.<br><br>Cataracts usually develop gradually, often affecting both eyes, though not necessarily to the same degree. While commonly associated with aging, cataracts can also occur in infants, young children, or due to injury or medication.</p>""", unsafe_allow_html=True)
 
@@ -62,7 +58,7 @@ with tab1:
 	    <li class="big-font">Experiencing double vision</li>
             <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
 
-	    column2.image("https://www.drparthshah.com.au/wp-content/uploads/2022/10/ISX3Cc2DzH-1.jpg", use_column_width=True)
+	    column2.image("https://www.drparthshah.com.au/wp-content/uploads/2022/10/ISX3Cc2DzH-1.jpg", use_container_width=True)
 
 # Statistics
     elif selection == "Statistics":
@@ -122,7 +118,7 @@ with tab1:
 	    <li class="big-font">Test your vision clarity through visual acuity and refraction tests.</li>
             </ul>
 	    </p>""", unsafe_allow_html=True)
-	    column2.image("https://www.reviewofoptometry.com/CMSImagesContent/2021/11/RO/11242021-phone-camera.jpg", use_column_width=True)
+	    column2.image("https://www.reviewofoptometry.com/CMSImagesContent/2021/11/RO/11242021-phone-camera.jpg", use_container_width=True)
 
 # Consequences of Late Detection
     elif selection == "Consequences of Late Detection":
@@ -135,7 +131,7 @@ with tab1:
 	    <li class="big-font">The National Institute of Health predicts that the number of people with visual impairment will <b>double by 2050<b> due to the aging population.</li>
      	    </ul>
 	    </p>""", unsafe_allow_html=True)
-	    st.image("https://picjumbo.com/wp-content/uploads/old-alarm-clocks-analog-time-retro-free-stock-photo.jpg", width = 800, use_column_width=True)
+	    st.image("https://picjumbo.com/wp-content/uploads/old-alarm-clocks-analog-time-retro-free-stock-photo.jpg", width = 800, use_container_width=True)
 	
 	# Cost of Surgery
     elif selection == "Cost of Surgery":
@@ -149,7 +145,7 @@ with tab1:
 	    <li class="big-font"><b>Out-of-pocket expenses<b> may include doctor fees, facility charges, or anesthesia.</li>
      	    </ul>
 	    </p>""", unsafe_allow_html=True)
-	    st.image("https://www.centreforsight.net/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-17-at-6.07.03-PM.jpeg", width=800, use_column_width=True)
+	    st.image("https://www.centreforsight.net/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-17-at-6.07.03-PM.jpeg", width=800, use_container_width=True)
 
 # Aftercare Post-Surgery
     elif selection == "Aftercare Post-Surgery":
@@ -169,7 +165,7 @@ with tab1:
 	    <li class="big-font">Refrain from driving until your surgeon gives approval.</li>
      	    </ul>
             </p>""", unsafe_allow_html=True)
-	    column2.image("https://www.sterilmedical.com/wp-content/uploads/2022/09/STERIL050615047aw1-600x600-1.jpeg", use_column_width=True)
+	    column2.image("https://www.sterilmedical.com/wp-content/uploads/2022/09/STERIL050615047aw1-600x600-1.jpeg", use_container_width=True)
     
 with tab2:
     st.subheader("Eye scanner")
@@ -214,4 +210,4 @@ with tab3:
 		st.markdown("""<p class="big-font">My motivation to create this program stems from my commitment to ensure that people who have the disease are detected and treated early to prevent the condition from progressing. Many people are affected by cataracts, yet their issue often gets overlooked until the disease has worsened. Timely treatment can greatly help a patient's life by preventing future complications. With this app, my goal is to be able to spread awareness and help people in need who suffer from the disease to get more insight and be able to detect whether they do or do not have a cataract.</p>""", unsafe_allow_html=True)
 		
 	with col4:
-		st.image("selfpic.jpg", width = 600, use_column_width=True)
+		st.image("selfpic.jpg", width = 600, use_container_width=True)
