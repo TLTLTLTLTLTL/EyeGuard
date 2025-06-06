@@ -45,7 +45,10 @@ with tab1:
 	    column1.markdown("""<p class="big-font">A cataract is a clouded or opaque area in the eye's lens, which is typically clear and essential for focusing light on the retina.
      	    The retina, a light-sensitive layer at the back of the eye, sends visual information to the brain.<br><br>When a cataract develops, proteins in the lens begin to break down and clump together,
 	    obstructing light from passing through the lens and reaching the retina effectively. This results in blurry or dull vision.<br><br>Cataracts usually develop gradually, often affecting both eyes, though not necessarily to the same degree.
-   	    While commonly associated with aging, cataracts can also occur in infants, young children, or due to injury or medication.</p>""", unsafe_allow_html=True)
+   	    While commonly associated with aging, cataracts can also occur in infants, young children, or due to injury or medication.<br><br><br><br>Glaucoma is a group of eye conditions that damage the optic nerve, which is crucial for transmitting visual signals from the retina to the brain. 
+	    This damage is often linked to elevated intraocular pressure (IOP) within the eye. As pressure builds, it can compress and gradually deteriorate the optic nerve fibers, leading to blind spots in the visual field. 
+     	    If left untreated, glaucoma can cause irreversible vision loss or even complete blindness. Glaucoma typically develops slowly and without noticeable symptoms until significant damage has occurred. 
+     	    Although it is more common in older adults, anyone—including infants—can be affected. Early detection and treatment are key to preserving vision.</p>""", unsafe_allow_html=True)
 
 # Symptoms
     elif selection == "Symptoms":
