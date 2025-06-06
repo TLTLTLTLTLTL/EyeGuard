@@ -67,7 +67,16 @@ with tab1:
 	    <li class="big-font">Experiencing double vision</li>
             <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
 
-	    st.subheader("Yes")
+	    st.subheader("Symptoms of Glaucoma")
+	    column1.markdown("""<p class="big-font">People with cataracts may experience the following symptoms:<br><ul class="big-font"><li class="big-font">Vision appears blurred or foggy</li><li class="big-font">Sensitivity to bright lights or glare</li>
+     	    <li class="big-font">Difficulty seeing in dim lighting</li>
+	    <li class="big-font">Colors appear less vibrant</li>
+     	    <li class="big-font">Cloudy or hazy sight</li>
+	    <li class="big-font">Lights create halos or glare</li>
+     	    <li class="big-font">Struggles with vision at night</li>
+	    <li class="big-font">Experiencing double vision</li>
+            <li class="big-font"> Increased nearsightedness and frequent need for new eyeglasses</li></ul></p>""", unsafe_allow_html=True)
+	    st.subheader("Symptoms of Diabetic Retinopathy")
 
 	    column2.image("https://www.drparthshah.com.au/wp-content/uploads/2022/10/ISX3Cc2DzH-1.jpg", use_container_width=True)
 
